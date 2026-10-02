@@ -5,14 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>jeje</title>
 </head>
+
 <body>
-    <h1>
-        gey si lo lees
-    </h1>
-    <h2>da click en en el boton</h2>
-    <p>
-        dale click
-    </p>
-    <a href="https://ibb.co/QvvVWzCf">Haz ganado un iphone 17 pro max </a>
+
+    <h1>gey si lo lees</h1>
+
+    <h2>da click en el boton</h2>
+
+    <p>Laura a 5km de ti</p>
+
+    <audio id="cancion" src="oye gelda- saturado [rJNXmimB4kk].mp3"></audio>
+
+    <a href="https://ibb.co/sdNv2Gzz" 
+       target="_blank" 
+       onclick="reproducirCancion()">
+        Gana bitcoin
+    </a>
+
+    <script>
+        function reproducirCancion() {
+            const cancion = document.getElementById("cancion");
+            cancion.play();
+        }
+    </script>
+
 </body>
 </html>
